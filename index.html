@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Luas dan Keliling Segitiga</h1>
+        <p>Website penghitung luas dan keliling segitiga <br> by : Icang
+        </p>
+    </header>
+    <main>
+        <section class="judul">Kalkulator Luas</section>
+        
+        <section class="rumus">
+            <input class="segitiga-image"type="image" src="./Assets/Segitiga.png">
+            <div class="" id="judul-rumus">Rumus Luas Segitiga : <br> L = 1/2 x a x t 
+            </div>
+            <div class="" id="deskripsi-rumus">L: Luas Segitiga <br> a : Alas Segitiga <br>t : Tinggi Segitiga</div>
+        </section>
+        
+        <section class="input-section">
+            <input class= "inputan" type="number" id="tinggi-input" placeholder="Masukkan Tinggi Segitiga">
+            <input class= "inputan" type="number" id="alas-input" placeholder="Masukkan Alas Segitiga">
+        </section>
+        
+        <section>
+            <div class="hasil" id="hasil-luas">Hasil :</div>
+        </section>
+
+        <section class="button-section">
+            <button class="button" id="reset-luas">Reset</button>
+            <button class="button" id="hitung-luas">Hitung</button>
+        </section> 
+        
+        <section class="judul">Kalkulator Keliling</section>
+        
+        <section class="rumus">
+            <input class="segitiga-image"type="image" src="./Assets/Segitiga.png">
+            <div class="" id="judul-rumus">Rumus Keliling Segitiga : <br> K = a + b + c 
+            </div>
+            <div class="" id="deskripsi-rumus">K : Keliling Segitiga <br>a : Sisi - 1 <br>b : Sisi - 2 <br>c : Sisi - 3</div>
+        </section>
+        
+        <section class="input-section">
+            <input class= "inputan" type="number" id="sisi-input1" placeholder="Masukkan Sisi - 1">
+            <input class= "inputan" type="number" id="sisi-input2" placeholder="Masukkan Sisi - 2">
+            <input class= "inputan" type="number" id="sisi-input3" placeholder="Masukkan Sisi - 3">
+        </section>
+        
+        <section>
+            <div class="hasil" id="hasil-keliling">Hasil :</div>
+        </section>
+        
+        <section class="button-section">
+            <button class="button" id="reset-keliling">Reset</button>
+            <button class="button" id="hitung-keliling">Hitung</button>
+        </section> 
+        
+    </main>
+</body>
+<script type="text/javascript" src="./JS/script.js"></script>
+</html>
